@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#571f30">
+  <meta name="description" content="A little birthday surprise for Israa. Twenty years, and so many beautiful things ahead. From Mostafa.">
+  <meta name="color-scheme" content="light">
+  <title>For Israa · A little birthday surprise</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the surprise</a>
+  <div class="ambient" aria-hidden="true"><span class="orb orb-one"></span><span class="orb orb-two"></span><i class="spark s1">✧</i><i class="spark s2">✦</i><i class="spark s3">✧</i><i class="spark s4">✦</i></div>
+  <div class="site-shell">
+    <header class="site-header"><a class="brand" href="#intro" aria-label="Return to the envelope"><span class="brand-mark">✳</span> THE NOVEMBER POST</a><span class="header-date" data-text="date">1 November</span></header>
+    <main id="main">
+      <section class="scene intro-scene" id="intro" aria-labelledby="intro-heading">
+        <div class="intro-copy"><p class="eyebrow">ONE DAY. ONE VERY SPECIAL PERSON.</p><p class="handwritten intro-note">psst… birthday girl</p><h1 id="intro-heading" tabindex="-1">A little surprise<br>has <em>arrived.</em></h1><p class="arabic intro-arabic" lang="ar" dir="rtl">لإسراء… يوم حلو، لواحدة أحلى.</p></div>
+        <button class="envelope" id="open-envelope" aria-label="Open your birthday letter — افتحي الرسالة">
+          <span class="envelope-letter" aria-hidden="true">a little note for <span data-text="to">Israa</span> ♡</span>
+          <span class="envelope-body" aria-hidden="true"></span><span class="envelope-flap" aria-hidden="true"></span>
+          <span class="envelope-front" aria-hidden="true"></span>
+          <span class="envelope-address" aria-hidden="true"><span class="tiny-label">SPECIAL DELIVERY FOR</span><span class="envelope-name" data-text="to">Israa</span></span>
+          <span class="wax-seal" aria-hidden="true"><span>✳</span></span>
+          <span class="postage" aria-hidden="true"><span>20</span><small>NOV · 01</small></span>
+          <span class="envelope-bottom" aria-hidden="true">FROM <span data-text="from">Mostafa</span> <span>·</span> WITH A LITTLE BIRTHDAY MAGIC</span>
+        </button>
+        <div class="open-hint"><span class="hint-line"></span><span>tap the seal to open</span><span class="hint-line"></span></div>
+        <p class="intro-footer">A few words. A little joy. All for you.</p>
+      </section>
+
+      <section class="scene letter-scene" id="letter" aria-labelledby="letter-heading" hidden>
+        <div class="scene-heading"><p class="eyebrow">02 / WORDS TO KEEP</p><h1 id="letter-heading" tabindex="-1">Some things deserve<br><em>a little letter.</em></h1></div>
+        <article class="stationery">
+          <div class="paper-top"><span class="tiny-label">A BIRTHDAY LETTER</span><span class="paper-flower" aria-hidden="true">✳</span><span class="tiny-label" data-text="dateShort">01 / 11</span></div>
+          <div class="letter-meta"><span>From: <strong data-text="from">Mostafa</strong></span><span>To: <strong data-text="to">Israa</strong></span></div>
+          <h2 class="arabic letter-salutation" lang="ar" dir="rtl">إلى <span data-text="toArabic">إسراء</span>،</h2>
+          <div class="letter-body arabic" lang="ar" dir="rtl" id="letter-body"></div>
+          <div class="letter-signature"><span class="tiny-label">A LITTLE NOTE, JUST FOR YOU</span><p class="arabic" lang="ar" dir="rtl">من <span data-text="fromArabic">مصطفى</span> ♡</p></div>
+          <span class="paper-bottom" aria-hidden="true">✧ &nbsp; KEEP THE GOOD WORDS CLOSE &nbsp; ✧</span>
+        </article>
+        <div class="scene-actions"><button class="text-button" data-go="intro">← The envelope</button><button class="primary-button" data-go="birthday">One more surprise <span>↗</span></button></div>
+      </section>
+
+      <section class="scene birthday-scene" id="birthday" aria-labelledby="birthday-heading" hidden>
+        <div class="birthday-layout">
+          <div class="birthday-copy"><p class="eyebrow">03 / A NEW CHAPTER BEGINS</p><span class="birthday-tag">HELLO, <span data-text="age">20</span> ✧</span><h1 id="birthday-heading" tabindex="-1">Happy <span id="ordinal-age">20th</span><br>Birthday,<br><em data-text="to">Israa</em><span class="title-star" aria-hidden="true">✧</span></h1><p class="arabic birthday-message" id="birthday-message" lang="ar" dir="rtl"></p><div class="birthday-date"><span data-text="date">1 November</span><span class="date-divider"></span><span><span data-text="age">20</span> years of you</span></div></div>
+          <div class="cake-area">
+            <div class="balloon balloon-left" aria-hidden="true"><span></span></div><div class="balloon balloon-right" aria-hidden="true"><span></span></div>
+            <p class="handwritten cake-note" id="cake-note">make a little wish…</p>
+            <button class="cake-button" id="cake-button" aria-label="Blow out the birthday candles — اطفي الشمع" aria-describedby="cake-instruction">
+              <span class="cake-art" aria-hidden="true"><span class="candle candle-1"><span class="flame"></span><span class="smoke"></span></span><span class="candle candle-2"><span class="flame"></span><span class="smoke"></span></span><span class="candle candle-3"><span class="flame"></span><span class="smoke"></span></span><span class="cake-top"><i></i><i></i><i></i><i></i><i></i></span><span class="cake-tier tier-top"><span class="icing-drip"></span><span class="cake-embroidery">✧ &nbsp; ♡ &nbsp; ✧</span></span><span class="cake-tier tier-bottom"><span class="icing-drip"></span><span class="cake-embroidery">♡ &nbsp; ✧ &nbsp; ♡ &nbsp; ✧ &nbsp; ♡</span></span><span class="cake-plate"></span></span>
+            </button>
+            <p class="cake-instruction" id="cake-instruction">tap the cake to blow out the candles</p>
+            <p class="wish-result arabic" lang="ar" dir="rtl" id="wish-result" role="status"></p>
+            <button class="text-button relight" id="relight" hidden>↺ Make another wish</button>
+          </div>
+        </div>
+        <div class="scene-actions"><button class="text-button" data-go="letter">← Your letter</button><button class="primary-button" data-go="surprises">Little things to keep <span>↗</span></button></div>
+      </section>
+
+      <section class="scene surprises-scene" id="surprises" aria-labelledby="surprises-heading" hidden>
+        <div class="scene-heading"><p class="eyebrow">04 / THE GOOD THINGS CONTINUE</p><h1 id="surprises-heading" tabindex="-1">Little things.<br><em>Big smiles.</em></h1><p class="scene-subtitle arabic" lang="ar" dir="rtl">شوية حاجات صغيرة… علشان اليوم يفضل حلو.</p></div>
+        <div class="keepsakes">
+          <button class="keepsake-card note-card" data-dialog="note-dialog"><span class="card-index">01 / KEEP FOREVER</span><span class="card-illustration note-illustration" aria-hidden="true"><span>for you ♡<br>✧</span></span><span class="card-title">A note for your heart</span><span class="arabic card-description" lang="ar" dir="rtl">كلمتين حلوين، تحتفظي بيهم.</span><span class="card-cta">Open your note <span>↗</span></span></button>
+          <button class="keepsake-card music-card" data-dialog="music-dialog"><span class="card-index">02 / PRESS PLAY</span><span class="card-illustration record-illustration" aria-hidden="true"><span>♪</span></span><span class="card-title">A little birthday sound</span><span class="arabic card-description" lang="ar" dir="rtl">نغمة صغيرة لليوم بتاعك.</span><span class="card-cta">Take a little listen <span>↗</span></span></button>
+          <button class="keepsake-card day-card" data-dialog="day-dialog"><span class="card-index">03 / YOUR PICK</span><span class="card-illustration ticket-illustration" aria-hidden="true"><span>ONE<br><strong>good day</strong><small>ADMIT ONE · NO EXPIRY</small></span></span><span class="card-title">One very good day</span><span class="arabic card-description" lang="ar" dir="rtl">خروجة على ذوقك… والعزومة عليّا.</span><span class="card-cta">Choose your little treat <span>↗</span></span></button>
+        </div>
+        <p class="closing arabic" lang="ar" dir="rtl">سنة جديدة تليق بقلبك الحلو، يا <span data-text="toArabic">إسراء</span> ♡</p>
+        <div class="scene-actions"><button class="text-button" data-go="birthday">← Back to the cake</button><button class="text-button" data-go="intro">Start the surprise again ↺</button></div>
+      </section>
+    </main>
+    <footer class="site-footer"><span>MADE WITH A SMILE, BY <span data-text="from">Mostafa</span></span><nav class="journey" aria-label="Your birthday journey"><a href="#intro" aria-label="1. The envelope" aria-current="step"><span>01</span><i></i></a><a href="#letter" aria-label="2. Your letter"><span>02</span><i></i></a><a href="#birthday" aria-label="3. Birthday wish"><span>03</span><i></i></a><a href="#surprises" aria-label="4. Little surprises"><span>04</span><i></i></a></nav><span class="footer-edition">A BIRTHDAY EDITION · <span data-text="age">20</span></span></footer>
+  </div>
+  <dialog id="note-dialog" aria-labelledby="note-title"><button class="close-dialog" aria-label="Close note">×</button><p class="eyebrow">01 / YOUR POCKET-SIZED REMINDER</p><h2 id="note-title">Keep this little thought.</h2><div class="mini-note"><span aria-hidden="true">✧</span><p class="arabic" dir="rtl" lang="ar" id="keepsake-text"></p><p class="handwritten">from <span data-text="from">Mostafa</span> ♡</p></div><button class="primary-button" id="download-note">Save your keepsake ↓</button><p class="dialog-footnote arabic" lang="ar" dir="rtl">صورة صغيرة، تفضل معاكي.</p></dialog>
+  <dialog id="music-dialog" aria-labelledby="music-title"><button class="close-dialog" aria-label="Close music">×</button><p class="eyebrow">02 / A LITTLE MOMENT OF MUSIC</p><h2 id="music-title">A soundtrack for your day</h2><div class="modal-record" aria-hidden="true"><span>♪</span></div><p class="arabic" dir="rtl" lang="ar" id="playlist-description">مكان محجوز لأغاني يومك — لسه مفيش قائمة مضافة.<br>لحد ما تتملي، دي نغمة صغيرة مخصوص للمفاجأة.</p><a class="primary-button" id="playlist-link" hidden target="_blank" rel="noopener noreferrer">Open the playlist ↗</a><button class="primary-button" id="play-chime" aria-pressed="false">Play a little birthday chime ♪</button><p class="dialog-footnote" id="music-status" role="status">Sound only plays when you press play.</p></dialog>
+  <dialog id="day-dialog" aria-labelledby="day-title"><button class="close-dialog" aria-label="Close your treat">×</button><p class="eyebrow">03 / REDEEM ANYTIME</p><h2 id="day-title">Your day. Your little treat.</h2><p class="arabic" dir="rtl" lang="ar">اختاري حاجة تفرحك، واحتفظي بالكارت.<br>ابعتيه لمصطفى لما تحبي نرتّب اليوم سوا.</p><form id="treat-form"><fieldset><legend class="arabic" lang="ar" dir="rtl">إيه على مزاجك؟</legend><label><input type="radio" name="treat" value="قهوة وحكاوي" checked><span>☕</span><span class="arabic" lang="ar">قهوة وحكاوي</span></label><label><input type="radio" name="treat" value="حاجة حلوة"><span>🍰</span><span class="arabic" lang="ar">حاجة حلوة</span></label><label><input type="radio" name="treat" value="تمشية لطيفة"><span>☀</span><span class="arabic" lang="ar">تمشية لطيفة</span></label></fieldset><button class="primary-button" type="submit">Save my treat card ↓</button></form><p class="dialog-footnote arabic" lang="ar" dir="rtl" id="treat-status" role="status">العزومة من مصطفى. اليوم نختاره سوا ♡</p></dialog>
+  <div class="toast" role="status" id="toast"></div><canvas id="confetti" aria-hidden="true"></canvas>
+  <noscript><div class="noscript arabic" lang="ar" dir="rtl">كل سنة وإنتي طيبة يا إسراء ♡ فعّلي JavaScript لفتح الرسالة وباقي المفاجآت.</div></noscript>
+</body>
+</html>
